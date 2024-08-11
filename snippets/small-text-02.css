@@ -1,0 +1,13 @@
+.dataview.small-text {
+    font-size: 10px;
+    margin-left: 8px;
+    border-radius: 8px;
+    padding: 1px 3px;
+    background: var(--color-accent);
+    color: #fafafa;
+}
+
+.dataview.small-text::before,
+.dataview.small-text::after {
+    display: none;
+}
