@@ -1,5 +1,5 @@
 .dataview-container h4 {
-	font-size: 1.2em;
+	font-size: 20px;
 }
 
 .block-language-dataview .dataview-container h4  a {
@@ -8,7 +8,7 @@
 
 .dataview-container h4 span .internal-link {
 	color: var(--interactive-accent);
-    letter-spacing: 0.15rem;
+    letter-spacing: 2.5px;
     
 }
 
