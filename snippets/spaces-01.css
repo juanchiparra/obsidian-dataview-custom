@@ -1,0 +1,16 @@
+/* Task */
+.dataview.task-list-item {
+    padding-top: 1.2px;
+    padding-bottom: 1.2px;
+}
+
+/* List */
+.dataview.list-view-ul > li {
+    padding-top: 1.2px;
+    padding-bottom: 1.2px;
+}
+
+/* Table */
+.table-view-tbody > tr > td {
+    padding: 4px 4px;
+}
