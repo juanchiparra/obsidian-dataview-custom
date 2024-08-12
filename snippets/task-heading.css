@@ -1,0 +1,17 @@
+.dataview-container h4 {
+	font-size: 1.2em;
+}
+
+.block-language-dataview .dataview-container h4  a {
+	text-decoration: none;
+}
+
+.dataview-container h4 span .internal-link {
+	color: var(--interactive-accent);
+    letter-spacing: 0.15rem;
+    
+}
+
+.dataview-container h4 span .internal-link:hover {
+    color: var(--interactive-accent-hover);
+}
