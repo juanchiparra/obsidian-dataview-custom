@@ -1,6 +1,7 @@
+/* Modifies the default values of Obsidian CSS variables related to the checkbox */
 .block-language-dataview .task-list-item {
 	--checkbox-size: var(--font-text-size);
-	--checkbox-radius: 50%; 
+	--checkbox-radius: 50%; /* The closer the value is to 0%, the more square the checkbox will be, the further away it is, the more circular it will be */
     --checkbox-marker-color: var(--background-primary);
     --checkbox-color: var(--interactive-accent);
     --checkbox-color-hover: var(--interactive-accent-hover);

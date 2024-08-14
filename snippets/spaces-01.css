@@ -1,16 +1,16 @@
-/* Task */
+/* Task | Modifies the padding that separates each task vertically */
 .dataview.task-list-item {
     padding-top: 1.2px;
     padding-bottom: 1.2px;
 }
 
-/* List */
+/* List | Modifies the padding that separates each note vertically */
 .dataview.list-view-ul > li {
     padding-top: 1.2px;
     padding-bottom: 1.2px;
 }
 
-/* Table */
+/* Table | Modifies the padding that separates each note vertically and horizontally */
 .table-view-tbody > tr > td {
     padding: 4px 4px;
 }

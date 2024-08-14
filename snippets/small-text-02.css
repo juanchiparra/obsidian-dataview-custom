@@ -1,3 +1,4 @@
+/* Modifies the size of the small-text that appears in tables and tasks (when using group by) */
 .dataview.small-text {
     font-size: 10px;
     margin-left: 6px;
@@ -7,6 +8,7 @@
     color: #fafafa;
 }
 
+/* Removes default parentheses from small-text */
 .dataview.small-text::before,
 .dataview.small-text::after {
     display: none;

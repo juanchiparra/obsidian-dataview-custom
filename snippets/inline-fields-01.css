@@ -1,22 +1,27 @@
+/* Adds an element between the key and the value of the inline fields */
 .dataview.inline-field>.inline-field-key::after {
 	content: "|";
     padding: 4px;
 }
 
+/* Removes the default background color and adjusts the font size and color of the inline fields */
 .task-list-item .dataview[class*="inline-field"] {
 	font-size: 10px;
     background-color: transparent;
     color: grey;
 }
 
+/* Removes default underlining of the inline fields */
 ul li.task-list-item[data-task="x"], ul li.task-list-item[data-task="X"] {
     text-decoration: none;
 }
 
+/* Removes the default padding of the inline fields value */
 .dataview.inline-field-value {
     padding-left: 0;
 }
 
+/* Removes the default padding of the inline fields key */
 .dataview.inline-field-key {
     padding-right: 0;
 }

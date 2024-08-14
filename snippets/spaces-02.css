@@ -1,9 +1,9 @@
-/* Task */
+/* Task | Modifies the margin that separates tasks horizontally */
 .dataview.result-group>.contains-task-list>.task-list-item {
 	margin-left: 60px;
 }
 
-/* List */
+/* List | Modifies the margin that separates notes horizontally */
 .dataview.list-view-ul {
 	margin-left: 20px;
 }

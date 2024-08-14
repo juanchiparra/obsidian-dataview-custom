@@ -1,31 +1,34 @@
+/* Adds an element between the key and the value of the inline fields */
 .dataview.inline-field>.inline-field-key::after {
 	content: ":";
     padding: 2px;
 }
 
+/* Removes the default background color of the inline fields */
 .task-list-item .dataview[class*="inline-field"] {
     background-color: transparent;
-    --checkbox-radius: 50%;
 }
 
+/* Removes default underlining of the inline fields */
 ul li.task-list-item[data-task="x"], ul li.task-list-item[data-task="X"] {
     text-decoration: none;
 }
 
-
+/* Adds background color, border radius and margin and modifies the font size and color of inline fields */
 .task-list-item .dataview.inline-field {
     background-color: rgba(168, 130, 255, 0.25);
     border-radius: 8px;
     color: #dbdada;
     margin: 6px;
     font-size: 10px;
-    text-decoration: none;
 }
 
+/* Removes the default padding of the inline fields value */
 .dataview.inline-field-value {
     padding-left: 0;
 }
 
+/* Removes the default padding of the inline fields key */
 .dataview.inline-field-key {
     padding-right: 0;
 } 

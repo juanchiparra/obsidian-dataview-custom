@@ -1,33 +1,40 @@
+/* Modifies the default value of Obsidian's CSS variables */
 table.dataview {
 	--table-header-color: #dadada;
 	--table-text-color: #939393;
     --table-text-size: 14px;
 }
 
+/* Modifies the width and maximum width of the table */
 .view-content .markdown-reading-view .markdown-preview-view .markdown-preview-section div table.dataview {
 	max-width: 100%;
 	width: 100%;
 }
 
+/* Modifies the font size, and border of the table header */
 table.dataview thead tr th {
     font-size: 14px;
 	border: none;
 }
 
+/* Modifies the color, size, and weight of the small-text inside the table */
 table.dataview thead tr th span.small-text {
     font-size: 12px;
     color: #dadada;
     font-weight: 400;
 }
 
+/* Modifies the font color when hovering inside the table */
 table.dataview tbody tr:hover td {
 	color: var(--interactive-accent-hover);
 }
 
+/* Modifies  the color of internal links inside the table*/
 table.dataview tbody tr td .internal-link {
 	color: var(--interactive-accent);
 }
 
+/* Modifies hover color of internal links inside the table*/
 table.dataview tbody tr:hover td .internal-link {
 	color: var(--interactive-accent-hover);
 }
