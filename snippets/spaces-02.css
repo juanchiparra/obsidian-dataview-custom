@@ -1,4 +1,9 @@
+/* Task */
 .dataview.result-group>.contains-task-list>.task-list-item {
 	margin-left: 60px;
 }
 
+/* List */
+.dataview.list-view-ul {
+	margin-left: 20px;
+}

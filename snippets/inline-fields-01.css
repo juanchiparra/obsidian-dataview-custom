@@ -5,7 +5,6 @@
 
 .task-list-item .dataview[class*="inline-field"] {
 	font-size: 10px;
-	font-style: italic;
     background-color: transparent;
     color: grey;
 }
