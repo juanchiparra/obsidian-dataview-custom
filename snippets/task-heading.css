@@ -11,7 +11,7 @@
 /* Modifies the color and letter spacing of the headingt */
 .dataview-container h4 span .internal-link {
 	color: var(--interactive-accent);
-    letter-spacing: 2.5px;
+    letter-spacing: 2.75px;
     
 }
 
