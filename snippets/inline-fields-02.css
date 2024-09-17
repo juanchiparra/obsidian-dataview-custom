@@ -17,7 +17,7 @@ ul li.task-list-item[data-task="x"], ul li.task-list-item[data-task="X"] {
 /* Adds background color, border radius and margin and modifies the font size and color of inline fields */
 .task-list-item .dataview.inline-field {
     background-color: rgba(168, 130, 255, 0.25);
-    border-radius: 8px;
+    border-radius: 6px;
     color: #dbdada;
     margin: 6px;
     font-size: 10px;
