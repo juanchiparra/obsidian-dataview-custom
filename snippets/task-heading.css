@@ -1,6 +1,6 @@
 /* Modifies the heading generated when using group by when indexing tasks */
 .dataview-container h4 {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 /* Removes text decoration by default */
@@ -11,11 +11,11 @@
 /* Modifies the color and letter spacing of the headingt */
 .dataview-container h4 span .internal-link {
 	color: var(--interactive-accent);
-    letter-spacing: 2.75px;
+	letter-spacing: 2.75px;
     
 }
 
 /* Modifies the color of the heading when hovering */
 .dataview-container h4 span .internal-link:hover {
-    color: var(--interactive-accent-hover);
+	color: var(--interactive-accent-hover);
 }
