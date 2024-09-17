@@ -34,7 +34,7 @@ table.dataview thead tr th span.small-text {
 
 /* Modifies the padding and alignment of text inside the table */
 .view-content .markdown-reading-view .markdown-preview-view .markdown-preview-section div table.dataview tbody tr td {
-	padding: 10px 0;
+	padding: 10px 2px;
 	text-align: center;
 }
 
